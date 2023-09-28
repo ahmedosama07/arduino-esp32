@@ -12300,6 +12300,19 @@ esp32doit-devkit-v1.menu.DebugLevel.info.build.code_debug=3
 esp32doit-devkit-v1.menu.DebugLevel.debug=Debug
 esp32doit-devkit-v1.menu.DebugLevel.debug.build.code_debug=4
 
+esp32doit-devkit-v1.menu.PartitionScheme.default=Default
+esp32doit-devkit-v1.menu.PartitionScheme.default.build.partitions=default
+esp32doit-devkit-v1.menu.PartitionScheme.minimal=Minimal (2MB FLASH)
+esp32doit-devkit-v1.menu.PartitionScheme.minimal.build.partitions=minimal
+esp32doit-devkit-v1.menu.PartitionScheme.no_ota=No OTA (Large APP)
+esp32doit-devkit-v1.menu.PartitionScheme.no_ota.build.partitions=no_ota
+esp32doit-devkit-v1.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+esp32doit-devkit-v1.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (Large APPS with OTA)
+esp32doit-devkit-v1.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+esp32doit-devkit-v1.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+esp32doit-devkit-v1.menu.PartitionScheme.fatflash=16M Fat
+esp32doit-devkit-v1.menu.PartitionScheme.fatflash.build.partitions=ffat
+
 esp32doit-devkit-v1.menu.EraseFlash.none=Disabled
 esp32doit-devkit-v1.menu.EraseFlash.none.upload.erase_cmd=
 esp32doit-devkit-v1.menu.EraseFlash.all=Enabled
